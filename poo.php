@@ -10,6 +10,7 @@
 
     <?php
         class Carro {
+            public string $teste;
             public string $marca;
             public string $modelo;
             public string $cor;
