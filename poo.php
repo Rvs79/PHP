@@ -13,7 +13,7 @@
             public string $marca;
             public string $modelo;
             public string $cor;
-            public int $velocidade = 0;
+            public int $velocidade = 1;
 
             function acelerar($valor){
                 $this->velocidade += $valor;
